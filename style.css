@@ -1,0 +1,72 @@
+/* GENERAL */
+/* i took a lot of inspiration for the design of it from the example website obviously, as im not very creative when it comes to very basic designs like this but im creative when it comes to more complex things for some reason, however i understand what each part of code does and i tried changing up a few things to make it my own like the title from the previous assignment :) */
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+/* MAIN TITLE */
+header {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  padding: 2.5rem 3rem;
+  gap: 3rem;
+  z-index: 1;
+}
+
+/* IMAGE SELECTOR */
+.small-image {
+  width: 70px;
+  height: 50px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.small-container {
+  height: 60px;
+  width: auto;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.459);
+  bottom: 3vh;
+  left: 38%;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+/* MAIN DISPLAY */
+#main-display img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* For desktop */
+@media (width >= 600px) {
+  .small-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90px;
+    width: 400px;
+    position: absolute;
+    top: 3vh;
+    bottom: auto;
+  }
+
+  .small-image {
+    width: 110px;
+    height: 75px;
+    padding: 1px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+}

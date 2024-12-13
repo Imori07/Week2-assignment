@@ -1,1 +1,3 @@
 # Week2-assignment
+
+# THINGS THAT NEED TO BE ADDED - ALT TEXT, ARIA ELEMENTS
