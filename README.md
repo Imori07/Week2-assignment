@@ -1,3 +1,5 @@
 # Week2-assignment
 
-# THINGS THAT NEED TO BE ADDED - ALT TEXT, ARIA ELEMENTS
+# COMPLETED 3 MAIN REQUIREMENTS AND 1 STRETCH CODE.
+
+# i had completely forgotten about the read me section and implemented most of my reflextion through the code ahah

@@ -51,7 +51,7 @@ header {
 }
 
 /* For desktop */
-@media (width >= 600px) {
+@media (width >= 800px) {
   .small-container {
     flex-direction: column;
     flex-wrap: wrap;
